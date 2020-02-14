@@ -1,0 +1,101 @@
+body{
+	background-color: rgba(10,10,50,0.8);
+	font-family: 'Ubuntu', serif;
+}
+
+h1, h2{
+	font-family: 'Raleway', sans-serif;
+}
+
+h1{
+	color: #142850;
+	font-weight: 900px;
+	font-size: 50px;
+}
+h2{
+	color: #27496d;
+	font-size: 40px;
+	font-weight: 300px;
+}
+
+p{
+	color:#0c7b93;
+	font-weight: 500px;
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: #0c7b93;
+}
+
+a:hover{
+	color:#00a8cc;
+}
+
+#pdp{
+	border-radius:	50%;
+	box-shadow: 0px 0px 0px black;
+	width: 220px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container{
+	width: 700px;
+	margin:  40px auto;
+	text-align: center;
+
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	border: 1px solid rgba(30,30,30,0.1);
+	box-shadow: 0px 10px 30px #00a8cc;
+	border-radius: 10px;
+	margin: 20px 0px 
+}
+
+.image-circle{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%
+}
+
+#icons{
+	list-style: none;
+	padding-left: 0px;
+}
+
+#icons{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-size: 80px;
+	background: white;
+	padding: 15px;
+	border-radius: 80px;
+}
+
+
+#icons{
+	font-size: 50px;
+	color: #fdba9a;
+}
+
+#icons i:hover {
+	color: yellow;
+}
+
+@media (max-width: 500px){
+	.container{
+		width: 400px
+	}
+}
+
+@media (max-width: 800px){
+	.container{
+		width: 600px
+	}
+}
